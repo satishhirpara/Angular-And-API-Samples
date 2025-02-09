@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'UploadFilesClient1' title`, () => {
+  it(`should have the 'UploadFilesClient' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('UploadFilesClient1');
+    expect(app.title).toEqual('UploadFilesClient');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UploadFilesClient1');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UploadFilesClient');
   });
 });

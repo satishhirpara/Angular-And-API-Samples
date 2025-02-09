@@ -10,7 +10,7 @@ import { FileService } from './_service/file.service';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'UploadFilesClient1';
+  title = 'UploadFilesClient';
   private url: string = 'https://localhost:5001/api/file';
   annotationId: string = '1234567';
 

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "UploadFilesClient1": {
+    "UploadFilesClient": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "UploadFilesClient1:build:production"
+              "buildTarget": "UploadFilesClient:build:production"
             },
             "development": {
-              "buildTarget": "UploadFilesClient1:build:development"
+              "buildTarget": "UploadFilesClient:build:development"
             }
           },
           "defaultConfiguration": "development"
